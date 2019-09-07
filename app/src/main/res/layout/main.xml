@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="top">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:gravity="top">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Di desain untuk menggantikan Tombol fisik"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:gravity="center"
+					android:background="#DA352B"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:fitsSystemWindows="true"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:gravity="center">
+
+				<LinearLayout
+					android:layout_height="100dp"
+					android:layout_width="100dp"
+					android:orientation="vertical">
+
+					<Button
+						android:layout_height="match_parent"
+						android:text="Restart (Reboot)"
+						android:layout_width="match_parent"
+						android:id="@+id/mainButton1"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:orientation="vertical">
+
+					<Button
+						android:layout_height="100dp"
+						android:text="Restart SystemUI"
+						android:layout_width="100dp"
+						android:id="@+id/mainButton2"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:orientation="vertical">
+
+					<Button
+						android:layout_height="100dp"
+						android:text="To Recovery"
+						android:layout_width="100dp"
+						android:id="@+id/mainButton3"/>
+
+					<Button
+						android:layout_height="100dp"
+						android:text="ShutDown"
+						android:layout_width="100dp"
+						android:id="@+id/mainButton5"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<Button
+					android:layout_height="wrap_content"
+					android:text="About"
+					android:layout_width="match_parent"
+					android:id="@+id/mainButton4"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
